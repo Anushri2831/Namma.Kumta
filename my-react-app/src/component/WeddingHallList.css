@@ -30,9 +30,11 @@ body {
     transform:translateY(18%)
   }
   
-  .icons i {
-    margin: 0 8px;
+  .icons {
+
     cursor: pointer;
+    display:flex;
+    gap:13px;
   }
   
   .subheader {
@@ -115,9 +117,16 @@ body {
     text-align: center;
     font-size: 14px;
     cursor: pointer;
+    flex:1;
   }
   
   .nav-item i {
     display: block;
     font-size: 18px;
+    margin-bottom:4px;
+  }
+
+  .icons{
+    display:flex;
+    justify-content:space-between;
   }

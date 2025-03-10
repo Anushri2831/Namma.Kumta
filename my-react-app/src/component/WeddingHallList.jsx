@@ -1,5 +1,8 @@
 import React from "react";
 import "./WeddingHallList.css";
+import {FaBell} from "react-icons/fa";
+import {FaUser} from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
 
 const halls = [
   {
@@ -27,10 +30,10 @@ const WeddingHallList = () => {
     <div className="wedding-hall-container">
       <header className="app-header">
         <div className="logo"><img SRC="https://png.pngtree.com/png-clipart/20230327/original/pngtree-orange-yellow-palm-tree-sunset-png-image_9005481.png" HEIGHT="50PX" WIDTH="50PX"></img> Namma Kumata</div>
-        <div className="icons">
-          <i className="fa fa-bell"></i>
-          <i className="fa fa-user"></i>
-          <i className="fa fa-globe"></i>
+        <div className="icons" >
+       <FaBell />
+        <FaUser  />
+       <FaGlobe   />
         </div>
       </header>
 
