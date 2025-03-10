@@ -4,6 +4,10 @@ import {FaBell} from "react-icons/fa";
 import {FaUser} from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
+import {FaHome} from "react-icons/fa";
+import {FaSearch} from "react-icons/fa";
+import {AiOutlinePlus} from "react-icons/ai";
+import { MdLightbulbOutline } from "react-icons/md";
 
 const halls = [
   {
@@ -59,10 +63,10 @@ const WeddingHallList = () => {
       </div>
 
       <nav className="bottom-nav">
-        <div className="nav-item"><i className="fa fa-home"></i> Home</div>
-        <div className="nav-item"><i className="fa fa-search"></i> Search</div>
-        <div className="nav-item"><i className="fa fa-plus"></i> Add/Join</div>
-        <div className="nav-item"><i className="fa fa-lightbulb"></i> Alerts</div>
+        <div className="nav-item"><FaHome /> Home</div>
+        <div className="nav-item"><FaSearch /> Search</div>
+        <div className="nav-item"> <AiOutlinePlus  style={{borderRadius:"50px", backgroundColor:"black", color:"white"}}/>Add/Join</div>
+        <div className="nav-item"><MdLightbulbOutline /> Alerts</div>
       </nav>
     </div>
   );
