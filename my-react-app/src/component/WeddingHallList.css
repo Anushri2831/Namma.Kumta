@@ -45,9 +45,10 @@ body {
     align-items: center;
   }
   
-  .subheader i {
+  .subheader  {
     margin-right: 10px;
     cursor: pointer;
+    gap:8px;
   }
   
   .hall-list {

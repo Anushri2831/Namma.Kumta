@@ -3,6 +3,7 @@ import "./WeddingHallList.css";
 import {FaBell} from "react-icons/fa";
 import {FaUser} from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa";
 
 const halls = [
   {
@@ -38,7 +39,7 @@ const WeddingHallList = () => {
       </header>
 
       <div className="subheader">
-        <i className="fa fa-arrow-left"></i> Wedding Hall
+        <FaArrowLeft /> Wedding Hall
       </div>
 
       <div className="hall-list">
