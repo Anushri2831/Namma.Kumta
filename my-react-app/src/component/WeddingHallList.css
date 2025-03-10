@@ -23,6 +23,11 @@ body {
   .logo {
     font-weight: bold;
     font-size: 18px;
+
+  }
+
+  .logo img{
+    transform:translateY(18%)
   }
   
   .icons i {
