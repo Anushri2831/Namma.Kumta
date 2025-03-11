@@ -34,7 +34,7 @@ const WeddingHallList = () => {
   return (
     <div className="wedding-hall-container">
       <header className="app-header">
-        <div className="logo"><img SRC="https://png.pngtree.com/png-clipart/20230327/original/pngtree-orange-yellow-palm-tree-sunset-png-image_9005481.png" HEIGHT="50PX" WIDTH="50PX"></img> Namma Kumata</div>
+        <div className="logo"><img SRC="https://png.pngtree.com/png-clipart/20230327/original/pngtree-orange-yellow-palm-tree-sunset-png-image_9005481.png" HEIGHT="50PX" WIDTH="50PX"></img> <div className="logoname">Namma Kumata</div></div>
         <div className="icons" >
        <FaBell />
         <FaUser  />

@@ -22,8 +22,9 @@ body {
   }
   
   .logo {
-    font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
+    display:flex;
+    flex-direction: coulmn;
 
   }
 
@@ -134,4 +135,8 @@ body {
   .icons{
     display:flex;
     justify-content:space-between;
+  }
+
+  .logoname{
+    transform:translateY(40%)
   }
